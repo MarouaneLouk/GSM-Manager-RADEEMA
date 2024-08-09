@@ -1,0 +1,262 @@
+#popUps {
+    font-family: "Syne";
+    position: relative;
+    z-index: 1000;
+}
+
+#popUps button {
+    background-color: #6b8067;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin: 10px 0;
+    border-radius: 6px;
+}
+
+#popUps button:hover {
+    background-color: #546b52;
+}
+
+#popUps .popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: hsla(112, 19%, 16%, 0.3);
+    backdrop-filter: blur(1px);
+    justify-content: center;
+    align-items: center;
+}
+
+#popUps .popup-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    width: 400px;
+    box-shadow: 0 0px 20px hsla(112, 20%, 22%, 0.6);
+    position: relative;
+}
+
+#popUps .popup-content h2 {
+    margin-top: 0;
+}
+
+#popUps .popup-content form {
+    display: flex;
+    flex-direction: column;
+}
+
+#popUps .popup-content label {
+    margin: 10px 0 5px;
+}
+
+#popUps .popup-content input,
+#popUps .popup-content select {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+#popUps .popup-content button {
+    background-color: #6b8067;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+#popUps .popup-content button:hover {
+    background-color: #546b52;
+}
+
+#popUps .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #aaa;
+    font-size: 24px;
+    cursor: pointer;
+    margin-top:1px;
+}
+
+#popUps .close:hover svg path{
+    fill: #1b311a;
+}
+
+
+
+
+.popup-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: hsla(112, 19%, 16%, 0.3);
+    backdrop-filter: blur(1px);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.popup-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    width: 300px;
+    box-shadow: 0 0px 20px hsla(112, 20%, 22%, 0.6);
+}
+
+.popup-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.popup-header h2 {
+    margin: 0;
+}
+
+.close-btn {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+.close-btn:hover svg path{
+    fill: #1b311a;
+}
+
+
+.popup-body {
+    padding: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid hsla(112, 9%, 45%, 0.5);
+    border-radius: 6px;
+}
+
+.apply-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #6C7F69;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.apply-btn:hover {
+    background-color: #546b52;
+}
+
+
+
+
+
+.popup-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: hsla(112, 19%, 16%, 0.3);
+    backdrop-filter: blur(1px);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.popup-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    box-shadow: 0 0px 20px hsla(112, 20%, 22%, 0.6);
+}
+
+.popup-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.popup-header h2 {
+    margin: 0;
+}
+
+.close-btn {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.popup-body {
+    padding: 20px;
+}
+
+
+.popup-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: hsla(112, 19%, 16%, 0.3);
+    backdrop-filter: blur(1px);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.popup-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    width: 400px;
+    box-shadow: 0 0px 20px hsla(112, 20%, 22%, 0.6);
+}
+
+.popup-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.popup-header h2 {
+    margin: 0;
+}
+
+.close-btn {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.popup-body {
+    padding: 20px;
+}

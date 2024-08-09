@@ -1,0 +1,377 @@
+body{
+    margin:0px;
+    padding:0px;
+    height: 100%;
+    white-space: nowrap;
+    overflow-y: scroll;
+}
+.background{
+    position: absolute;
+    inset:0; 
+    height: 100%; 
+    width: 100%; 
+    object-fit: cover; 
+    object-position: right;
+    z-index: -1;
+    position: fixed;
+}
+.whiteBg{
+    background-image: linear-gradient(90deg, white, rgba(255, 255, 255, 0.8));
+    width:45vw;
+    min-width: 615px;
+    position: relative;
+    top:0vw;
+    display: flex;
+    flex-direction: column;
+    row-gap:90px;
+    min-height: 100vh;
+    padding-inline: 10px;
+}
+.whiteBg header{
+    display: flex;
+    padding-top:2vh;
+    align-items: center;
+}
+.whiteBg main{
+    display: flex;
+    flex-direction: column;
+    row-gap:25px;
+    align-items: center;
+}
+
+.whiteBg main form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap:0px;
+}
+.whiteBg footer{
+    display: flex;
+    justify-content: center;
+    column-gap:9vw;
+    margin-top: 87px;
+    position: relative;
+}
+.RADEEMAlogo{
+    margin-left:20px;
+    width:60px;
+}
+.RADEEMAtext{
+    background: linear-gradient(180deg, #364552 0%, rgba(164, 189, 127, 0.95) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    font-family: Markazi Text;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-left:15px;
+}
+.span1{
+    color: #032D23;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: "Playfair Display";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 44px; /* 146.667% */
+    letter-spacing: -0.64px;
+}
+.span2{
+    color: #AAA713;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: "Playfair Display";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: -0.64px;
+}
+.loginText{
+    color: #293439;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: "Playfair Display";
+    font-size: 43px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 70px; /* 116.667% */
+    letter-spacing: -1.34px;
+    margin-bottom: 10px;
+}
+.loginInputLabels{
+    transform: translateX(-320%);
+    font-size:20px;
+    margin-bottom:-5px;
+    font-weight:500;
+}
+.passwordInputLabels{
+    transform: translateX(-180%);
+    font-size:20px;
+    margin-bottom:-5px;
+    font-weight:500;
+}
+.input{
+    width: 325px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    border: 1.7px solid #032D23;
+    color: #032D23;
+    padding:0 20px;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 34px;
+    letter-spacing: -0.33px;
+    margin:10px;
+}
+.extraInfo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap:38px;
+    margin-bottom:8px;
+}
+.remember{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transform: translateX(-115px);
+}
+.remember span{
+    color: #032D23;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: -0.33px;
+}
+.remember input[type="checkbox"]{
+    width: 16px;
+    height: 16px;
+    flex-shrink: 0;
+    color: #AAA713;
+    background-color:#AAA713;
+    border-color: #AAA713;
+}
+.remember input[type="checkbox"]:checked{
+    background-color:#AAA713;
+    color: #AAA713;
+    border-color: #AAA713;
+}
+.extraInfo span a{
+    margin-left: 68px;
+    color: #293439;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: -0.33px;
+    text-decoration: none;
+}
+.extraInfo span a:hover{
+    text-decoration: underline;
+}
+.loginButton{
+    align-items: center;
+    width: 370px;
+    height: 50px;
+    border-radius: 6px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    background: #293439;
+    color: #FFF;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 34px;
+    letter-spacing: -0.33px;
+    cursor: pointer;
+    margin-top: 3px;
+}
+.requisDeAccount{
+    color: red;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: -0.33px;
+    transform: translateX(-63px);
+    margin-top: 3px;
+}
+footer div:first-child{
+    color: #032D23;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -0.18px;
+}
+footer div:nth-child(2) a{
+    color: #032D23;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; 
+    letter-spacing: -0.18px;
+    text-decoration: none;
+}
+footer div:nth-child(2) a:hover{
+    text-decoration: underline;
+}
+footer div span{
+    color: #AAA713;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -0.18px;
+}
+@media only screen and (min-height: 820px) {
+    body{
+        overflow-x: hidden;
+        overflow-y: scroll;
+    }
+    .whiteBg footer{
+    margin-top: 94px;
+    position: absolute;
+    bottom:0.5vh;
+    left:50%;
+    transform: translateX(-50%);
+    }
+    .whiteBg{
+        overflow-x: hidden;
+    }
+}
+@media only screen and (max-width: 651px) {
+    body{
+        overflow-x: hidden;
+        overflow-y: scroll;
+    }
+    .remember{
+        transform: translateX(-105px);
+    }
+    .whiteBg{
+        min-width: 0px;
+        width:100vw;
+        align-items: center;
+        padding-inline: 0px;
+        row-gap: 120px;
+        overflow-x: hidden;
+    }
+    .RADEEMAlogo{
+        margin-left:0px;
+        width:50px;
+    }
+    .RADEEMAtext{
+        font-size: 25px;
+    }
+    .span1,.span2{
+        font-size: 26px;
+    }
+    .loginText{
+        font-size: 40px;
+    }
+    .input{
+        width: 300px;
+    }
+    .extraInfo{
+        column-gap:18px;
+    }
+    .loginButton{
+        width: 345px;
+        height: 52px;
+    }
+    .requisDeAccount{
+        transform: translateX(-52px);
+    }
+    .whiteBg footer{
+        flex-direction: column-reverse;
+        column-gap:0px;
+        align-items: center;
+        margin-top: 100px;
+    }
+    .loginInputLabels{
+        transform: translateX(-295%);
+    }
+    .passwordInputLabels{
+        transform: translateX(-165%);
+    }
+}
+@media only screen and (max-width: 400px) {
+    .RADEEMAlogo{
+        margin-left:0px;
+        width:45px;
+    }
+    .RADEEMAtext{
+        font-size: 23px;
+    }
+    .whiteBg main{
+        scale:0.9;
+    }
+    .whiteBg footer{
+        font-size: 1px;
+    }
+    footer div:first-child{
+        font-size: 14px;
+    }
+    footer div:nth-child(2) a{
+        font-size: 14px;
+    }
+    footer div span{
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 350px) {
+    .RADEEMAlogo{
+        margin-left:0px;
+        width:38px;
+    }
+    .RADEEMAtext{
+        font-size: 19px;
+    }
+    .whiteBg main{
+        scale:0.8;
+    }
+    footer div:first-child{
+        font-size: 13px;
+    }
+    footer div:nth-child(2) a{
+        font-size: 13px;
+    }
+    footer div span{
+        font-size: 13px;
+    }
+}
+@media only screen and (max-width: 300px) {
+    .whiteBg main{
+        scale:0.7;
+    }
+    footer div:first-child{
+        font-size: 12px;
+    }
+    footer div:nth-child(2) a{
+        font-size: 11px;
+    }
+    footer div span{
+        font-size: 11px;
+    }
+}
